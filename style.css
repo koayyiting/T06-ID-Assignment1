@@ -1,10 +1,15 @@
 
 .grey{
-    color: grey;
+    color: rgb(49, 45, 45);
     font-family: 'Ubuntu', sans-serif;
   }
           
   .purple{
     color: purple;
+    font-family: 'Ubuntu', sans-serif;
+  } 
+
+  .blue{
+    color: blue;
     font-family: 'Ubuntu', sans-serif;
   } 
