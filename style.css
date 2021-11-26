@@ -1,25 +1,20 @@
-
-.white{
-  color: whitesmoke;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-}
-          
+        
 .darkgrey{
   color: rgb(41, 41, 41);
   font-family: 'Ubuntu', sans-serif;
-} 
+}  
 
-.blue{
-  color: blue;
+header h2{
+  color: rgb(41, 41, 41);
   font-family: 'Ubuntu', sans-serif;
-} 
-
-.border{
-  background-color: beige;
+  text-align: center;
 }
 
-body{background-color: rgb(113, 73, 206);}
+.border{
+  background-color: white;
+}
+
+body{background-color: beige;}
 h4{text-align: center;}
 
 .container{
@@ -50,3 +45,28 @@ h4{text-align: center;}
   max-width: 100%;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li a{
+  margin: 30px;
+  font-size: 13px;
+}
