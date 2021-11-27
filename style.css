@@ -58,7 +58,7 @@ header {
 /* COLOUR ONLY FOR SECTIONS (THE CONTENTS) */
 section {
   background-color: #EEEAF1;
-  padding: 35px 80px;
+  padding: 35px 50px;
   display: flex;
   justify-content: center;
 }
@@ -109,10 +109,11 @@ section h1 {
   text-align: center;
   border: 2px solid lightgray;
   order: 1;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 10px 20px 10px;
   height: auto;
   width: auto;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 10px 20px 10px;
+  line-height: 1.4;
 }
 
 .boxitem2{
@@ -120,10 +121,11 @@ section h1 {
   text-align: center;
   border: 2px solid lightgray;
   order: 2;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 20px 10px;
   height: auto;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 10px 20px 10px;
   width: auto;
+  line-height: 1.4;
 }
 
 .boxitem3{
@@ -131,10 +133,11 @@ section h1 {
   text-align: center;
   border: 2px solid lightgray;
   order: 3;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 20px 10px;
   height: auto;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 10px 20px 10px;
   width: auto;
+  line-height: 1.4;
 }
 
 h5{
@@ -157,15 +160,15 @@ button:active{
 
 
 /* EDUCATION JOURNEY PAGE */
-eduContainer p{
-  font-size: 13px;
-  text-align: center;
-  line-height: 1.8;
-  width: 300px;
+.eduContainer{
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .exInfo{
-  border: 1.5px solid lightgray;
   font-size: 12px;
 }
 /* END OF EDUCATION PAGE */
@@ -179,7 +182,6 @@ eduContainer p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .singleImg{
@@ -204,3 +206,41 @@ eduContainer p{
   flex-direction: row;
 }
 /* END OF PROJECT PAGE */
+
+
+
+/* MEDIA */
+@media (max-width: 576px) {
+  .container, .eduContainer, .prjContainer,.nav {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav a {
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #EEEAF1;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .nav li a{
+    color: black;
+  }
+  .nav li{
+    padding: 20px 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
