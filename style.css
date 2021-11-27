@@ -1,72 +1,206 @@
-        
-.darkgrey{
-  color: rgb(41, 41, 41);
+body {
+  margin: 0;
   font-family: 'Ubuntu', sans-serif;
-}  
+}
 
-header h2{
-  color: rgb(41, 41, 41);
-  font-family: 'Ubuntu', sans-serif;
+/* HEADER OF WEBSITE */
+header {
+  padding: 0 30px;
+  background-color: darkmagenta;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* END OF HEADER OF WEBSITE*/
+
+
+
+/* NAV BUTTONS */
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.nav a:hover {
+  color: #c5cae9;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-left:20px;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+/* END OF NAV BUTTONS */
+
+
+
+/* COLOUR ONLY FOR SECTIONS (THE CONTENTS) */
+section {
+  background-color: #EEEAF1;
+  padding: 35px 80px;
+  display: flex;
+  justify-content: center;
+}
+/* END OF COLOUR */
+
+
+
+/* BIO/HOME PAGE */
+.myBio img {
+  height: 200px;
+  padding: 0 75px;
+}
+
+.myBio p {
+  line-height: 1.8;
+  width: 400px;
+  text-align: left;
+}
+
+section h1 {
   text-align: center;
+  margin: 0;
+  padding: 0 0 25px;
 }
-
-.border{
-  background-color: white;
-}
-
-body{background-color: beige;}
-h4{text-align: center;}
 
 .container{
-  display: flex;
   width: 100%;
-  flex-wrap: column wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: space-around;
-  height: 100%;
-}
-
-@media (max-width: 576px) {
-  .flex-item {
-    flex: 1 1 0px;
-    width : 50%;
-    max-width: 170px
-  }
-}
-
-.flex-item {
-  padding: 3%;
-  flex-grow: 1;
-  flex-basis: 15%;
-}
-
-.flex-img img {
-  max-width: 100%;
-}
-
-ul{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
-
-nav{
+  margin: 0;
   display: flex;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+}
+/* END OF BIO/HOME PAGE */
+
+
+
+/* CONTENTS THAT NEED FLEX-BOX */
+.startHeader{
+  text-align: center;
+  padding: 5px 30px;
+  background-color: darkmagenta;
+  color: white;
+}
+
+.boxitem1{
   background-color: whitesmoke;
-  justify-content: space-between;
-  height: 50px;
+  text-align: center;
+  border: 2px solid lightgray;
+  order: 1;
+  margin: 10px 20px 10px 20px;
+  height: auto;
+  width: auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.boxitem2{
+  background-color: whitesmoke;
+  text-align: center;
+  border: 2px solid lightgray;
+  order: 2;
+  margin: 10px 10px 10px 10px;
+  height: auto;
+  padding: 0px 20px 20px 20px;
+  width: auto;
+}
+
+.boxitem3{
+  background-color: whitesmoke;
+  text-align: center;
+  border: 2px solid lightgray;
+  order: 3;
+  margin: 10px 10px 10px 10px;
+  height: auto;
+  padding: 0px 20px 20px 20px;
+  width: auto;
+}
+
+h5{
+  margin: 0;
+  padding: 0;
+  color: #4C4C4C;
+}
+
+.learnMore{
+  background-color: #EEEAF1;
+  border: 1.5px solid lightgray;
+  border-radius: 5px;
+}
+
+button:active{
+  transform:scale(1,1);
+}
+/* END OF FLEX-BOX */
+
+
+
+/* EDUCATION JOURNEY PAGE */
+eduContainer p{
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.8;
+  width: 300px;
+}
+
+.exInfo{
+  border: 1.5px solid lightgray;
+  font-size: 12px;
+}
+/* END OF EDUCATION PAGE */
+
+
+
+/* INTEREST PAGE */
+.myImage{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
-nav ul{
-  display: flex;
+.singleImg{
+  padding: 0 20px 20px;
 }
+/* END OF INTEREST PAGE */
 
-nav ul li a{
-  margin: 30px;
-  font-size: 13px;
+
+
+/* CONTACT PAGE */
+.contact p{
+  text-align: left;
 }
+/* END OF CONTACT PAGE */
+
+
+
+/* PROJECT PAGE */
+.prjContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* END OF PROJECT PAGE */
