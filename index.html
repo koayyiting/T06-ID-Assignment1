@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src = "http://kit.fontawesome.com/a076d05399.js"></script>
@@ -18,16 +18,16 @@
         <i class = "fas fa-bars"></i>
     </label>
     <ul class = "nav">
-        <li><a href = "#" class = "darkgrey">Home</a></li>
-        <li><a href = "#" class = "darkgrey">Bio</a></li>
-        <li><a href = "#" class = "darkgrey">Education</a></li>
-        <li><a href = "#" class = "darkgrey">Contact</a></li>
-        <li><a href = "#" class = "darkgrey">Projects</a></li>
+        <li><a href = "#Home" class = "gone">Home</a></li>
+        <li><a href = "#Education" class = "gone">Education</a></li>
+        <li><a href = "#Interest" class = "gone">Interest</a></li>
+        <li><a href = "#Project" class = "gone">Projects</a></li>
+        <li><a href = "#Contact"class = "gone">Contact</a></li>
     </ul>
 </header>
 
 <body>
-<section>
+<section id = "Home">
     <div class = "myBio">
         <h1>Personal Portfolio</h1>
         <div class = "container">
@@ -43,7 +43,7 @@
     </div>
 </section>
 
-<div class = "startHeader">
+<div class = "startHeader" id = "Education">
     <h2>My Education Journey</h2>
 </div>
 
@@ -63,7 +63,6 @@
               Pioneer Primary School.
             </div>
             </p>
-            <button class = "learnMore">Learn More</button>
     </div>
     <div class = "boxitem2">
         <h3>Secondary School</h3>
@@ -82,7 +81,6 @@
               Westwood Secondary School.
             </div>
             </p>
-            <button class = "learnMore">Learn More</button>
     </div>
     <div class = "boxitem3">
         <h3>Polytechnic</h3>
@@ -97,25 +95,31 @@
               Ngee Ann Polytechnic. School Of InfoComm Technology.
             </div>
             </p>
-            <button class = "learnMore">Learn More</button>
     </div>
 </section>
 
-<div class = "startHeader">
+<div class = "startHeader" id = "Interest">
     <h2>My Interest</h2>
     <p>In secondary school, I was in Design and Technology and I like to sketch or draw once in a while when I have
       the time to do so.</p>
 </div>
-  
-<div class = "myImage">
-    <div class = "singleImg"><img src = "img/eyes.jpg"></div>
-    <div class = "singleImg"><img src = "img/friend6.jpg"></div>
-    <div class = "singleImg"><img src = "img/friends3.jpg"></div>
-    <div class = "singleImg"><img src = "img/galaxyblue.jpg"></div>
-    <div class = "singleImg"><img src = "img/leejung.jpg"></div>
+
+<div class = "intContainer">
+    <div class = "myImage">
+        <div class = "singleImg"><img src = "img/eyes.jpg"></div>
+        <div class = "singleImg"><img src = "img/friend6.jpg"></div>
+        <div class = "singleImg"><img src = "img/friends3.jpg"></div>
+        <div class = "singleImg"><img src = "img/galaxyblue.jpg"></div>
+        <div class = "singleImg"><img src = "img/leejung.jpg"></div>
+    </div>
+    <p>
+        Since I like to design, draw and create things, that could 
+        suggest that I am quite a creative person which I think I am
+        able to create creative front-end, user interaction.
+    </p>
 </div>
   
-<div class = "startHeader">
+<div class = "startHeader" id = "Project">
     <h2>Projects</h2>
 </div>
   
@@ -153,11 +157,15 @@
             Grade: A1
             </div>
             </p>
-            <button class = "learnMore">Prototype</button>
+            <a href = "img/DnT.jpg">
+            <button class = "learnMore">Image</button></a>
+            <div class = "exInfo">
+               Press the Button to have clearer understanding of my work.
+            </div>
     </div>
 </section>
   
-<div class = "startHeader">
+<div class = "startHeader" id = "Contact">
     <h2>My Contact Infomations</h2>
 </div>
   
@@ -166,8 +174,12 @@
         <p>School email: s10221765@connect.np.edu.sg <br>
             Personal email: koayyiting@gmail.com <br>
             Contact No.: 9061 4039 <br>
-            Instagram: @k_yiting_kyt
+            Instagram: @k_yiting_kyt <br>
+            LinkedIn Profile:
         </p>
+        <a href = "https://www.linkedin.com/in/koayyiting/"><button class = "more">
+            <img src = "img/LinkedIn.png">
+        </button></a>
     </div>
 </section>
 
