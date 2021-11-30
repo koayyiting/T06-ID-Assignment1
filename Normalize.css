@@ -190,6 +190,7 @@ button:active{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .singleImg{
@@ -220,6 +221,11 @@ button:active{
   flex-direction: row;
 }
 /* END OF PROJECT PAGE */
+
+
+
+/* CERTIFICATION PAGE */
+/* END OF CERTIFICATION PAGE*/
 
 
 
@@ -270,3 +276,9 @@ button:active{
   }
 }
 /* END OF MEDIA */
+
+
+.startHeader p{
+  text-align: end;
+  font-size: 15px;
+}
