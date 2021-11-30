@@ -8,9 +8,9 @@ Essentially, this part is your sales pitch.
 
 This is my project which is designed based on a topic given which is "Build a personal protfolio site". The overview of my website is a personal portfolio which its goal its to present myself best in my website and get hired. So this website would include my Personal Information like My Education Journey, Interest, My Previous Projects and My Contacts. 
 
-As I have mentioned, my Goal is to present myself and get hired. So after looking through my personal portfolio, it must be able to let the recruiters find my portfolio good. (TBC...)
+As I have mentioned, my Goal is to present myself and get hired. So after looking through my personal portfolio, it must be able to let the recruiters find my portfolio good. So users using my website will be able to know about me. They are able to navigate to pages to show more information of myself. [They are also able to send emails to contact me at the Contacts Page.]
 
-## Design Process
+## Design Process (not done)
 
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -21,20 +21,20 @@ This section is also where you would share links to any wireframes, mockups, dia
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
-## Features
+## Features (not done)
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-### Existing Features
+### Existing Features (not done)
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
+### Features Left to Implement (not done)
 - Another feature idea
 
-## Technologies Used
+## Technologies Used (not done)
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -42,7 +42,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
-## Testing
+## Testing (not done)
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
@@ -60,10 +60,10 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+### Content (done)
+- Content are all true, none of it is copied from articles 
 
-### Media
+### Media (done)
 - The photos used in this site were obtained from mostly from myself.
 - Only the LinkedIn logo is taken online:
 - https://cdn-icons-png.flaticon.com/512/174/174857.png
