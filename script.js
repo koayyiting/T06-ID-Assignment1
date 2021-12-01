@@ -1,2 +1,2 @@
-let newForm = document.createElement("form");
-var down = document.getElementsByClassName("form");
+let newForm = document.createElement("newform");
+var form = document.getElementsByClassName("newform");
