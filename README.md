@@ -64,6 +64,11 @@ For any scenarios that have not been automated, test the user stories manually a
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+1. Navigation Tab:
+    1. Go to the Navigation Tab
+    (Since one page include 2 content, tab buttons need to link to page and page section)
+    2. Try to navigate to another page's section
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
