@@ -18,7 +18,7 @@ My Design Process for this website is to let users able to use the website easil
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
-- (idk what this talking about)
+
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
@@ -49,9 +49,6 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [HTML]
 - [CSS]
 - [JAVASCRIPT]
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
 
 ## Testing (not done)
@@ -87,4 +84,4 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from X (example: w3school)
