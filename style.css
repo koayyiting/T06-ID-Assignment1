@@ -37,20 +37,6 @@ header {
 .nav li {
   margin-left:20px;
 }
-
-.checkbtn{
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 20px;
-  cursor: pointer;
-  display: none;
-}
-
-#check{
-  display: none;
-}
 /* END OF NAV BUTTONS */
 
 
@@ -104,6 +90,10 @@ section h1 {
   color: white;
 }
 
+.startHeader p{
+  text-align: center;
+}
+
 .boxitem1{
   background-color: whitesmoke;
   text-align: center;
@@ -133,6 +123,15 @@ section h1 {
   text-align: center;
   border: 2px solid lightgray;
   order: 3;
+  margin: 10px 10px 20px 10px;
+  height: auto;
+  padding: 0px 10px 20px 10px;
+  width: auto;
+  line-height: 1.4;
+}
+
+.boxitem4{
+  order: 4;
   margin: 10px 10px 20px 10px;
   height: auto;
   padding: 0px 10px 20px 10px;
@@ -231,6 +230,9 @@ button:active{
 
 /* MEDIA */
 @media (max-width: 576px) {
+  body{
+    font-size: 90%;
+  }
   .container, .eduContainer, .prjContainer{
     flex-direction: row;
     display: flex;
@@ -240,33 +242,18 @@ button:active{
     font-size: 90%;
   }
   .nav a {
-    font-size: 16px;
+    font-size: 80%;
   }
-  .checkbtn{
-    display: block;
-  }
+
   ul{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #EEEAF1;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
+    margin-left:20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-start: 40px
   }
-  .nav li a{
-    color: black;
-  }
-  .nav li{
-    padding: 20px 20px;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
-  .nav{
-    flex-direction: column;
-  } 
+  
   header, nav ul{
     position: fixed;
     width: 100%;
@@ -278,6 +265,23 @@ button:active{
   header i{
     padding: 0 30px 0 0;
   }
+
+  #Education h2, #Project h2, .myBio{
+    padding: 50px 0 0 0;
+  }
+
+  .nav {
+    margin-right: 40px;
+  }
+
+  .sklContainer{
+    align-items: center;
+  }
+
+  .sitem1, .sitem2 { 
+    width:70%;
+    height:70%;
+  }
 }
 /* END OF MEDIA */
 
@@ -286,5 +290,34 @@ button:active{
   text-align: end;
   font-size: 15px;
 }
+
+/* Skills Content */
+.sklContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.sitem1{
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 10px;
+  order: 1;
+  height: 225px;
+  margin: 15px 30px;
+  width: 225px;
+  line-height: 1.4;
+}
+.sitem2{
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 10px;
+  order: 1;
+  height: 225px;
+  margin: 15px 30px;
+  width: 225px;
+  line-height: 1.4;
+}
+/* End of Skill Content */
 
 /* JAVASCRIPT ADD ON FORM */

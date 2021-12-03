@@ -8,16 +8,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src = "http://kit.fontawesome.com/a076d05399.js"></script>
+    <script src = "script.js"></script>
     <title>Assignment 1: Education and Interest</title>
 </head>
 
 <header>
     <h2>KYT</h2>
-    <input type = "checkbox" id = "check">
-    <label for = "check" class = "checkbtn">
-        <i class = "fas fa-bars"></i>
-    </label>
     <ul class = "nav">
         <li><a href ="index.html">Home</a></li>
         <li><a href ="EduNInt.html">Education</a></li>
@@ -27,81 +23,91 @@
     </ul>
 </header>
 
-<body id = "Education">
-<div class = "startHeader" id = "Education">
-    <h2>My Education Journey</h2>
-</div>
+<body>
+    <div class = "startHeader" id = "Education">
+        <h2>My Education Journey</h2>
+    </div>
 
-<section class = "eduContainer">
-    <div class = "boxitem1">
-        <h3>Primary School</h3>
-        <h5>[Jan 2011 - Oct 2016]</h5>
-            <p>
-            In Pioneer Primary, Our school organises events, programmes and camps for us to have
-            a chance to build up on our leadership skills. I had to opportunity to be a Student Councillor
-            as well as a member of my CCA, Chinese Dance. As a member of both community, I was able to
-            contribute something to my school which I was proud of. <br>
-            <div class = "exInfo">
-              PSLE Aggregate Score: 204 <br>
-              Leadership role: Student Councillor <br>
-              CCA: Chinese Dance <br>
-              Pioneer Primary School.
-            </div>
-            </p>
-    </div>
-    <div class = "boxitem2">
-        <h3>Secondary School</h3>
-        <h5>[Jan 2017 - Sep 2020]</h5>
-            <p>
-            In Westwood Secondary, Our school organises various type of events of students to participate
-            or even take in charge of it. Our school gives us many opportunities to learn and improve
-            both as a leader and a student. I was given many opportunity to improve myself as a Leader
-            and took 3 Leadership role to improve on my leadership skills. I have learn to be confident,
-            try out new things and not to be scared of stepping out of my comfort zone.
-            <div class = "exInfo">
-              O Levels Score(E1R2B2): 12 nett, 14 raw <br>
-              Leadership roles: Student Councillor, <br>
-              Vice Captain of Badminton, Vice-Chairperson <br>
-              CCA: Badminton <br>
-              Westwood Secondary School.
-            </div>
-            </p>
-    </div>
-    <div class = "boxitem3">
-        <h3>Polytechnic</h3>
-        <h5>[Apr 2021 - Present]</h5>
-            <p>
-            This is my first year as an NP student. My Aim is slightly different from My Primary and Secondary
-            School, I want to focus more on my studies and skills for IT. Since IT is kind of new to me,
-            yet I am interested in it, so I would need to work hard to catch up. And My knowlegde of IT would
-            be crucial for my future career opportunity and choices.
-            <div class = "exInfo">
-              Diploma of Choice: Information Technology <br>
-              Ngee Ann Polytechnic. School Of InfoComm Technology.
-            </div>
-            </p>
-    </div>
-</section>
+    <section class = "eduContainer">
+        <div class = "boxitem1">
+            <h3>Primary School</h3>
+            <h5>[Jan 2011 - Oct 2016]</h5>
+                <p>
+                In Pioneer Primary, Our school organises events, programmes and camps for us to have
+                a chance to build up on our leadership skills. I had to opportunity to be a Student Councillor
+                as well as a member of my CCA, Chinese Dance. As a member of both community, I was able to
+                contribute something to my school which I was proud of. <br>
+                <div class = "exInfo">
+                PSLE Aggregate Score: 204 <br>
+                Leadership role: Student Councillor <br>
+                CCA: Chinese Dance <br>
+                Pioneer Primary School.
+                </div>
+                </p>
+        </div>
+        <div class = "boxitem2">
+            <h3>Secondary School</h3>
+            <h5>[Jan 2017 - Sep 2020]</h5>
+                <p>
+                In Westwood Secondary, Our school organises various type of events of students to participate
+                or even take in charge of it. Our school gives us many opportunities to learn and improve
+                both as a leader and a student. I was given many opportunity to improve myself as a Leader
+                and took 3 Leadership role to improve on my leadership skills. I have learn to be confident,
+                try out new things and not to be scared of stepping out of my comfort zone.
+                <div class = "exInfo">
+                O Levels Score(E1R2B2): 12 nett, 14 raw <br>
+                Leadership roles: Student Councillor, <br>
+                Vice Captain of Badminton, Vice-Chairperson <br>
+                CCA: Badminton <br>
+                Westwood Secondary School.
+                </div>
+                </p>
+        </div>
+        <div class = "boxitem3">
+            <h3>Polytechnic</h3>
+            <h5>[Apr 2021 - Present]</h5>
+                <p>
+                This is my first year as an NP student. My Aim is slightly different from My Primary and Secondary
+                School, I want to focus more on my studies and skills for IT. Since IT is kind of new to me,
+                yet I am interested in it, so I would need to work hard to catch up. And My knowlegde of IT would
+                be crucial for my future career opportunity and choices.
+                <div class = "exInfo">
+                Diploma of Choice: Information Technology <br>
+                Ngee Ann Polytechnic. School Of InfoComm Technology.
+                </div>
+                </p>
+        </div>
+        <div class = "boxitem4">
+            <h3>Pictures In School</h3>
+            <img id = "imagesch" src = "images/pri4.jpg" alt = ""><br>
+            <button onclick="imagechange();">Next Picture</button>
+        </div>
+    </section>
 
-<div class = "startHeader" id = "Interest">
-    <h2>My Interest</h2>
-    <p>In secondary school, I was in Design and Technology and I like to sketch or draw once in a while when I have
-      the time to do so.</p>
-</div>
-
-<div class = "intContainer">
-    <div class = "myImage">
-        <div class = "singleImg"><img src = "images/eyes.jpg" alt = "Anime Eyes"></div>
-        <div class = "singleImg"><img src = "images/friend6.jpg" alt = "My Friends"></div>
-        <div class = "singleImg"><img src = "images/friends3.jpg" alt = "My Friends"></div>
-        <div class = "singleImg"><img src = "images/galaxyblue.jpg" alt = "Galaxy"></div>
-        <div class = "singleImg"><img src = "images/leejung.jpg" alt = "Sketch of LeeJung"></div>
+    <div class = "startHeader" id = "Interest">
+        <h2>My Interest</h2>
     </div>
-    <p>
-        Since I like to design, draw and create things, that could 
-        suggest that I am quite a creative person which I think I am
-        able to create creative front-end, user interaction.
-    </p>
-</div>
+
+    <div class = "intContainer">
+        <p>In secondary school, I was in Design and Technology and I like to sketch or draw once in a while when I have
+            the time to do so.</p>
+        <div class = "myImage">
+            <div class = "singleImg"><img src = "images/eyes.jpg" alt = "Anime Eyes"></div>
+            <div class = "singleImg"><img src = "images/friend6.jpg" alt = "My Friends"></div>
+            <div class = "singleImg"><img src = "images/friends3.jpg" alt = "My Friends"></div>
+            <div class = "singleImg"><img src = "images/galaxyblue.jpg" alt = "Galaxy"></div>
+            <div class = "singleImg"><img src = "images/leejung.jpg" alt = "Sketch of LeeJung"></div>
+        </div>
+        <p>
+            Since I like to design, draw and create things, that could 
+            suggest that I am quite a creative person which I think I am
+            able to create creative front-end, user interaction.
+        </p>
+    </div>
+
+    
 </body>
+
+<footer class = "startHeader"><p>Copyright © 2021 Koay Yi Ting. All Rights Reserved.</p></footer>
+
 </html>

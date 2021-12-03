@@ -1,5 +1,8 @@
-function addCR(){
-    var copy = document.getElementById('js.p');
-    var newText = document.createTextNode("Copyright © 2021 Koay Yi Ting. All Rights Reserved.");
-    copy.appendChild(newText); 
+function imageChange() {
+    var image = document.getElementById('imagesch');
+    if (image.src == "images/pri4.jpg") {
+        image.src = "images/sec4.jpeg";
+    } else {
+        image.src = "images/pri4.jpg";
+    }
 }

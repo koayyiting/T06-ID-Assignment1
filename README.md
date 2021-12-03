@@ -56,7 +56,7 @@ Wireframe Link: https://xd.adobe.com/view/72f84db8-25d6-41e3-9683-fd1d4fd27285-2
 ## Interesting bugs or problems I discovered during my testing, even if you haven't addressed them yet (done)
 
 Using the validation check, i realise that my img src did not add the alt, which it should have so I have alt for all of them and the error is fixed. 
-The Menu Bar will disappear when I select Home for the first time and the menu would not disappear when going to different section to the same page.
+The Menu Bar will disappear when I select Home for the first time and the menu would not disappear when going to different section to the same page but its still bale to press.
 
 ## Credits
 
