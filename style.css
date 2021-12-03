@@ -182,7 +182,7 @@ button:active{
 
 
 
-/* INTEREST PAGE */
+/* INTEREST/CERTIFICATION PAGE */
 .myImage{
   display: flex;
   flex-wrap: wrap;
@@ -201,7 +201,7 @@ button:active{
   width: auto;
   text-align: center;
 }
-/* END OF INTEREST PAGE */
+/* END OF INTEREST/CERTIFICATION PAGE */
 
 
 
@@ -220,11 +220,6 @@ button:active{
   flex-direction: row;
 }
 /* END OF PROJECT PAGE */
-
-
-
-/* CERTIFICATION PAGE */
-/* END OF CERTIFICATION PAGE*/
 
 
 
@@ -319,5 +314,3 @@ button:active{
   line-height: 1.4;
 }
 /* End of Skill Content */
-
-/* JAVASCRIPT ADD ON FORM */
