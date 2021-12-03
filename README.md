@@ -16,7 +16,7 @@ Wireframe Link: https://xd.adobe.com/view/72f84db8-25d6-41e3-9683-fd1d4fd27285-2
 
 ## Features (not done)
 
-### Existing Features (half done)
+### Existing Features (done)
 - Feature 1 - On the Navigation tab, it allows users to navigate to other page, by having them on click to the navigation button.
 - Feature 2 - At the Contact Page, it allows users to go to my LinkedIn Profile, by clicking on the LinkedIn button.
 
@@ -49,14 +49,14 @@ Wireframe Link: https://xd.adobe.com/view/72f84db8-25d6-41e3-9683-fd1d4fd27285-2
     2. Try using the Menua Bar on the top right corner
     3. Try going into different page
 
-## How my project will looks and works on different browsers and screen sizes.
+## How my project will looks and works on different browsers and screen sizes (not done)
 
 - When the size is down to...
 
-## Interesting bugs or problems I discovered during my testing, even if you haven't addressed them yet.
+## Interesting bugs or problems I discovered during my testing, even if you haven't addressed them yet (done)
 
 Using the validation check, i realise that my img src did not add the alt, which it should have so I have alt for all of them and the error is fixed. 
-...
+The Menu Bar will disappear when I select Home for the first time and the menu would not disappear when going to different section to the same page.
 
 ## Credits
 
@@ -68,6 +68,6 @@ Using the validation check, i realise that my img src did not add the alt, which
 - Only the LinkedIn logo is taken online:
 - https://cdn-icons-png.flaticon.com/512/174/174857.png
 
-### Acknowledgements
+### Acknowledgements (done)
 
-- I received inspiration for this project from w3school, youtube
+- I received inspiration for this project from W3school, YouTube, my previous website portfolio design.
