@@ -60,7 +60,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
 1. Contact form:
-    1. Go to the "Contact Us" page
+    1. Go to the "Contact" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
@@ -70,11 +70,19 @@ For any scenarios that have not been automated, test the user stories manually a
     (Since one page include 2 content, tab buttons need to link to page and page section)
     2. Try to navigate to another page's section
 
+2. Menu Bar:
+    1. Using Phone Or making it small in size
+    2. Try using the Menua Bar on the top right corner
+    3. Try going into different page
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Using the validation check, i realise that my img src did not add the alt, which it should have so I have alt for all of them and the error is fixed. 
+...
 
 ## Credits
 
@@ -88,4 +96,4 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements
 
-- I received inspiration for this project from X (example: w3school)
+- I received inspiration for this project from w3school, youtube
